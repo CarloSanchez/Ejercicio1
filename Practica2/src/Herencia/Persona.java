@@ -11,4 +11,23 @@ package Herencia;
  */
 public class Persona {
     
+    String nombre;
+    int edad;
+    String profesion;
+    
+    public Persona(){//siempre se tiene que crear el constructor
+    }
+    
+    public void saludar()
+    {
+    System.out.println("Buen dia, sea bienvenido");
+    }
+    
+    public void despedir()
+    {
+    System.out.println("Muchas gracias por su visita");
+    }
+    
+    
+    
 }
