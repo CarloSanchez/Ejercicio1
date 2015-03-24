@@ -9,13 +9,23 @@ package practica2;
  *
  * @author Carlitos
  */
+import Herencia.Persona;
+import Herencia.Profesor;
+import Herencia.Postulante;
+import Herencia.abstraer;
+
 public class ejecuta {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Profesor profesor = new Profesor("029193","San Juan","Manuel");
+        
+        
+        profesor.presentacion();
+        profesor.enseñar();
     }
     
 }
